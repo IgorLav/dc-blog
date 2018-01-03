@@ -1,0 +1,238 @@
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    .grid-item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 33.333333%;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media all and (min-width: 1400px){
+    .container {
+        max-width: 1600px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1367px){
+    .sidebar {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 300px;
+        -moz-box-flex: 0;
+        -ms-flex: 0 0 300px;
+        flex: 0 0 300px;
+        padding: 20px;
+
+        flex-direction:row;
+    }
+
+    .posts-widget .post-title {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .form-heading {
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .form-heading .block {
+        display: inline-block;
+    }
+
+    .hero-slider .slide-text {
+        width: 50%;
+    }
+
+    .article-content h1 {
+        font-size: 22px;
+    }
+
+    .dynamic-content p {
+        font-size: 14px;
+    }
+
+    .dynamic-content blockquote {
+        max-width: 90%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .hero-slider {
+        height: 450px;
+    }
+
+    .hero-slider .category {
+        font-size: 16px;
+    }
+
+    .hero-slider .slide-caption {
+        font-size: 24px;
+    }
+
+    .contacts-page {
+        padding-top: 100px;
+    }
+
+    .article-content {
+        padding: 30px;
+    }
+
+    .content-with-sidebar .container {
+        flex-wrap:wrap;
+        flex-direction:row;
+    }
+
+    .sidebar {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+
+        margin-left: 0;
+    }
+
+    .content-with-sidebar .inner-content-wrap {
+        margin-bottom: 50px;
+    }
+
+    .card-item-description {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .social-nav-item:not(.search-btn) {
+        display: none;
+    }
+
+    .hero-slider .hero-pagination-wrap {
+        display: none;
+    }
+
+    .hero-slider .slide-text {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right:0;
+
+        width: auto;
+        padding: 2rem;
+
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .form-heading {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .form-heading {
+        padding-left: 0;
+    }
+
+    .form-heading .block {
+        display: inline-block;
+    }
+
+    .subcribe-section-wrap .form-control {
+        margin-bottom: 15px;
+    }
+
+    .footer-section {
+        margin: 0 0 30px;
+    }
+
+    .text-404 .lg-text {
+        font-size: 150px;
+    }
+
+    .text-404 .msg-404 {
+        font-size: 14px;
+        word-spacing: 0;
+    }
+
+    .main-img {
+        height: 350px;
+    }
+
+    .card-item .img-wrap {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dynamic-content p {
+        margin-bottom: 15px;
+    }
+
+    .dynamic-content blockquote {
+        max-width: 100%;
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .dynamic-content blockquote p {
+        font-size: 12px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .post-title {
+        font-size: 18px;
+    }
+
+    .contacts-page .main-title,
+    .sidebar-widget .title {
+        font-size: 18px;
+
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .article-content{
+        padding: 30px 0;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .hero-slider .slide-caption {
+        font-size:20px;
+    }
+
+    .comment-bar .comment-count {
+        font-size: 11px;
+    }
+
+    .post-title {
+        font-size: 15px;
+    }
+
+    .post-category,
+    .post-date {
+        font-size: 12px;
+    }
+
+    .post-description {
+        line-height: 1.5;
+    }
+
+    .text-404 .lg-text {
+        font-size: 130px;
+    }
+
+    .text-404 .msg-404 {
+        font-size: 12px;
+    }
+}
